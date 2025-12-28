@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.0] – 2025-01-01
+## [1.0.0] – 28-12-2025
 ### Added
 - Initial release
 - Webfont icons (WOFF2, WOFF, TTF, OTF)
