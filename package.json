@@ -1,0 +1,36 @@
+{
+  "name": "fdicons",
+  "version": "1.0.0",
+  "description": "FD Icons — Webfont icon pack (CSS + WOFF/TTF/OTF)",
+  "keywords": [
+    "icons",
+    "icon-font",
+    "webfont",
+    "css-icons",
+    "fdicons",
+    "icomoon"
+  ],
+  "homepage": "https://cdn.jsdelivr.net/gh/FocusDeskIcons/fdicons/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FocusDeskIcons/fdicons.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "FocusDeskIcons",
+    "url": "https://github.com/FocusDeskIcons"
+  },
+  "style": "dist/css/fdi.min.css",
+  "files": [
+    "dist/",
+    "data/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "echo \"No build step required\"",
+    "minify": "echo \"Already minified\""
+  },
+  "bugs": {
+    "url": "https://github.com/FocusDeskIcons/fdicons/issues"
+  }
+}
