@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>FDIcons – Demo</title>
 
+  <!-- ===============================
+       OPTION 1 : CDN jsDelivr (PRODUCTION)
+       Décommente cette ligne quand ton repo est publié
+  ================================ -->
+  <!--
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/TON_USER/fdicons@v1.0.0/dist/css/fdi.min.css">
+  -->
+
+  <!-- ===============================
+       OPTION 2 : LOCAL (pour tester en local)
+       À utiliser si demo.html est dans /demo
+  ================================ -->
+  <link rel="stylesheet" href="../dist/css/fdi.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background: #f7f7f7;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .icons {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .icon-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .icon-card i {
+      font-size: 32px;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .icon-name {
+      font-size: 13px;
+      color: #555;
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>FDIcons – Demo</h1>
+  <p>Exemples d’utilisation des icônes FDIcons</p>
+
+  <div class="icons">
+    <div class="icon-card">
+      <i class="fdi fdi-arrow-right" aria-hidden="true"></i>
+      <div class="icon-name">fdi-arrow-right</div>
+    </div>
+
+    <div class="icon-card">
+      <i class="fdi fdi-airplane" aria-hidden="true"></i>
+      <div class="icon-name">fdi-airplane</div>
+    </div>
+
+    <div class="icon-card">
+      <i class="fdi fdi-battery-full" aria-hidden="true"></i>
+      <div class="icon-name">fdi-battery-full</div>
+    </div>
+
+    <div class="icon-card">
+      <i class="fdi fdi-alarm-clock" aria-hidden="true"></i>
+      <div class="icon-name">fdi-alarm-clock</div>
+    </div>
+
+    <div class="icon-card">
+      <i class="fdi fdi-user" aria-hidden="true"></i>
+      <div class="icon-name">fdi-user</div>
+    </div>
+
+    <div class="icon-card">
+      <i class="fdi fdi-home" aria-hidden="true"></i>
+      <div class="icon-name">fdi-home</div>
+    </div>
+  </div>
+
+</body>
+</html>
