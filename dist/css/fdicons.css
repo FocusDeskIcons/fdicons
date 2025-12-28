@@ -2,7 +2,7 @@
   font-family: "fdicons";
   src: url("../fonts/fdicons.woff2") format("woff2"),
        url("../fonts/fdicons.woff") format("woff"),
-       url("../fonts/fdicons.ttf") format("truetype");
+       url("./fonts/fdicons.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: block;
