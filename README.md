@@ -32,9 +32,6 @@ fdicons/
 ├─ README.md
 └─ package.json
 
-Créé moi maintenant un package.json
----
-
 ## 🚀 Installation (via CDN)
 
 La manière la plus simple d’utiliser **FD Icons** est via **jsDelivr**.
