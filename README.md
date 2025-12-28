@@ -7,6 +7,9 @@
 ✔️ Compatible CDN (jsDelivr)  
 ✔️ Classes CSS simples (`fdi fdi-icon-name`)
 
+![Version](https://img.shields.io/github/v/release/FocusDeskIcons/fdicons)
+![License](https://img.shields.io/github/license/FocusDeskIcons/fdicons)
+![Stars](https://img.shields.io/github/stars/FocusDeskIcons/fdicons)
 ---
 
 ## 📦 Contenu du package
